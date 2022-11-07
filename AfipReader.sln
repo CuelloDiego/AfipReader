@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfipReader", "AfipReader\AfipReader.csproj", "{59127268-7CDF-49EB-AADF-EB7F184BFB5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AfipReader", "AfipReader\AfipReader.csproj", "{59127268-7CDF-49EB-AADF-EB7F184BFB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfipReader.Core", "AfipReader.Core\AfipReader.Core.csproj", "{9A85105D-B89A-4ECC-A19C-331F822204BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{59127268-7CDF-49EB-AADF-EB7F184BFB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59127268-7CDF-49EB-AADF-EB7F184BFB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59127268-7CDF-49EB-AADF-EB7F184BFB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
