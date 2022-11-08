@@ -5,6 +5,7 @@ Workbook excel = new("C:\\Users\\diiee\\Desktop\\DDC.xlsx");
 
 Worksheet page = excel.Worksheets[0];
 
+
 AfipWorksheet afip = new AfipWorksheet();
 var resultado = afip.GetDetails().Item1;
 var rowsnotreaded = afip.GetDetails().Item2;
@@ -24,8 +25,6 @@ foreach (var comprobante in resultado)
     Console.WriteLine("Total: " + comprobante.Total);
     Console.WriteLine("------------------------------------------------------ ");
 }
-
-
 
 Console.WriteLine("\nFilas no leidas ");
 foreach (var row in rowsnotreaded)
