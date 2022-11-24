@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AfipReader.Core\AfipReader.Core.csproj" />
+    <ProjectReference Include="..\AfipReader.Core2\AfipReader.Core.csproj" />
   </ItemGroup>
 
 </Project>

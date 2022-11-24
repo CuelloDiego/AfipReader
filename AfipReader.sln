@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AfipReader", "AfipReader\AfipReader.csproj", "{59127268-7CDF-49EB-AADF-EB7F184BFB5A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AfipReader.Core", "AfipReader.Core\AfipReader.Core.csproj", "{9A85105D-B89A-4ECC-A19C-331F822204BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AfipReader.Api", "AfipReader.Api\AfipReader.Api.csproj", "{3D0A326C-8869-4CDC-B31C-A7F46750F92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfipReader.Api", "AfipReader.Api\AfipReader.Api.csproj", "{3D0A326C-8869-4CDC-B31C-A7F46750F92B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfipReader.Core", "AfipReader.Core2\AfipReader.Core.csproj", "{2A26A8F0-0CC0-45D4-AFEF-CCF06409015B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{59127268-7CDF-49EB-AADF-EB7F184BFB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59127268-7CDF-49EB-AADF-EB7F184BFB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59127268-7CDF-49EB-AADF-EB7F184BFB5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A85105D-B89A-4ECC-A19C-331F822204BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D0A326C-8869-4CDC-B31C-A7F46750F92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D0A326C-8869-4CDC-B31C-A7F46750F92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D0A326C-8869-4CDC-B31C-A7F46750F92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D0A326C-8869-4CDC-B31C-A7F46750F92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A26A8F0-0CC0-45D4-AFEF-CCF06409015B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A26A8F0-0CC0-45D4-AFEF-CCF06409015B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A26A8F0-0CC0-45D4-AFEF-CCF06409015B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A26A8F0-0CC0-45D4-AFEF-CCF06409015B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
